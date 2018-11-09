@@ -1,0 +1,16 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	//This defines what 1rem is
+	font-size: 62.5%; /* Esto equivale a 10px tomando que el tamaño de fuente std en el browser es 16px*/
+}
+
+body {
+	box-sizing: border-box;
+}
